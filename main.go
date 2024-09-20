@@ -9,7 +9,7 @@ import (
 
 func main() {
 	client := &http.Client{}
-	req, err := http.NewRequest("GET", "https://kick.com/api/v2/channels/silentdevnull/", nil)
+	req, err := http.NewRequest("GET", "https://kick.com/api/v2/channels/test/", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
