@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
   hnd = curl_easy_init();
   curl_easy_setopt(hnd, CURLOPT_BUFFERSIZE, 102400L);
-  curl_easy_setopt(hnd, CURLOPT_URL, "https://kick.com/api/v2/channels/silentdevnull/");
+  curl_easy_setopt(hnd, CURLOPT_URL, "https://kick.com/api/v2/channels/test/");
   curl_easy_setopt(hnd, CURLOPT_NOPROGRESS, 1L);
   curl_easy_setopt(hnd, CURLOPT_HTTPHEADER, headers);
   curl_easy_setopt(hnd, CURLOPT_USERAGENT, "Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0");
